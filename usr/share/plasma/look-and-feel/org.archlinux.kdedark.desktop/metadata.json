@@ -1,0 +1,63 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "plasma-devel@kde.org",
+                "Name": "Arch Linux"
+            }
+        ],
+        "Category": "",
+        "Description": "KDE with Arch Linux",
+        "Id": "org.archlinux.kdedark.desktop",
+        "License": "GPLv2+",
+        "Name": "Arch Linux (Dark)",
+        "Name[az]": "Arch Linux - Tünd",
+        "Name[bs]": "Arch Linux tamna",
+        "Name[ca]": "Arch Linux fosca",
+        "Name[ca@valencia]": "Arch Linux fosca",
+        "Name[cs]": "Arch Linux Tmavé",
+        "Name[da]": "Arch Linux Dark",
+        "Name[de]": "Arch Linux-Dunkel",
+        "Name[el]": "Arch Linux σκούρο",
+        "Name[en_GB]": "Arch Linux Dark",
+        "Name[es]": "Arch Linux oscuro",
+        "Name[et]": "Arch Linux tume",
+        "Name[eu]": "Arch Linux iluna",
+        "Name[fi]": "Tumma Arch Linux",
+        "Name[fr]": "Arch Linux sombre",
+        "Name[gl]": "Arch Linux Dark",
+        "Name[he]": "Arch Linux Dark",
+        "Name[hu]": "Arch Linux Dark",
+        "Name[ia]": "Arch Linux obscure",
+        "Name[id]": "Arch Linux Gelap",
+        "Name[it]": "Arch Linux scuro",
+        "Name[ja]": "Arch Linux (ダーク)",
+        "Name[ko]": "Arch Linux (어두운 테마)",
+        "Name[lt]": "Arch Linux tamsus",
+        "Name[nb]": "Arch Linux mørk",
+        "Name[nl]": "Arch Linux Dark",
+        "Name[nn]": "Arch Linux mørk",
+        "Name[pl]": "Ciemna Arch Linux",
+        "Name[pt]": "Arch Linux Escura",
+        "Name[pt_BR]": "Arch Linux Dark",
+        "Name[ro]": "Arch Linux, întunecat",
+        "Name[ru]": "Arch Linux, тёмный вариант",
+        "Name[sr]": "Arch Linux тамни",
+        "Name[sr@ijekavian]": "Arch Linux тамни",
+        "Name[sr@ijekavianlatin]": "Arch Linux tamni",
+        "Name[sr@latin]": "Arch Linux tamni",
+        "Name[sv]": "Arch Linux mörk",
+        "Name[tr]": "Koyu Arch Linux",
+        "Name[uk]": "Темна Arch Linux",
+        "Name[x-test]": "xxArch Linux Darkxx",
+        "Name[zh_CN]": "Arch Linux (黑暗)",
+        "Name[zh_TW]": "Arch Linux (黑暗)",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "https://www.kde.org"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}

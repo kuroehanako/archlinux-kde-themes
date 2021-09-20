@@ -1,0 +1,75 @@
+[Desktop Entry]
+Name=Arch Linux Dark
+Name[ar]=نسيم داكن
+Name[az]=Arch Linux Tünd variant
+Name[ca]=Arch Linux fosca
+Name[ca@valencia]=Arch Linux fosca
+Name[cs]=Arch Linux Tmavé
+Name[da]=Arch Linux Dark
+Name[de]=Arch Linux-Dunkel
+Name[en_GB]=Arch Linux Dark
+Name[es]=Arch Linux oscuro
+Name[et]=Arch Linux tume
+Name[eu]=Arch Linux iluna
+Name[fi]=Arch Linux Dark
+Name[fr]=Arch Linux sombre
+Name[gd]=Dorch-oiteag
+Name[gl]=Arch Linux escuro
+Name[hu]=Arch Linux Dark
+Name[ia]=Arch Linux obscure
+Name[id]=Arch Linux Gelap
+Name[it]=Brezza scuro
+Name[ko]=어두운 Arch Linux
+Name[lt]=Arch Linux tamsus
+Name[lv]=Tumšā Arch Linux
+Name[nb]=Mørk Arch Linux
+Name[nds]=Arch Linux düüster
+Name[nl]=Arch Linux Dark
+Name[nn]=Arch Linux mørk
+Name[pa]=ਬਰੀਜ਼ Arch Linux
+Name[pl]=Ciemna Arch Linux
+Name[pt]=Arch Linux Escura
+Name[pt_BR]=Arch Linux Dark
+Name[ro]=Arch Linux, întunecat
+Name[ru]=Arch Linux, тёмный вариант
+Name[sk]=Vánok Tmavý
+Name[sl]=Sapica (temna)
+Name[sr]=Поветарац тамни
+Name[sr@ijekavian]=Поветарац тамни
+Name[sr@ijekavianlatin]=Povetarac tamni
+Name[sr@latin]=Povetarac tamni
+Name[sv]=Arch Linux mörk
+Name[tg]=Насими торик
+Name[tr]=Esintili Koyu
+Name[uk]=Темна Arch Linux
+Name[vi]=Arch Linux Tối
+Name[x-test]=xxArch Linux Darkxx
+Name[zh_CN]=暗色Arch Linux
+Name[zh_TW]=Arch Linux Dark
+Comment=Arch Linux with KDE
+
+
+X-KDE-PluginInfo-Author=KDE Visual Design Group
+X-KDE-PluginInfo-Email=kde-artists@kde.org
+X-KDE-PluginInfo-Name=archlinux-dark
+X-KDE-PluginInfo-Version=5.85.0
+X-KDE-PluginInfo-Website=https://plasma.kde.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=Next
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080
+
+[ContrastEffect]
+enabled=true
+contrast=0.17
+intensity=1.25
+saturation=9
+
+[AdaptiveTransparency]
+enabled=true

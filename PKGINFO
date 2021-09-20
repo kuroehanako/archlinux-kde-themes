@@ -1,0 +1,11 @@
+pkgname = archlinux-kde-themes
+pkgver = 1.0
+pkgdesc = Arch Linux's themes for KDE
+url = http://aur.archlinux.org
+builddate = 20210917
+packager = kuroehanako
+arch = x86_64
+size =
+license = GPLv3
+depend = plasma-desktop
+depend = plasma-meta

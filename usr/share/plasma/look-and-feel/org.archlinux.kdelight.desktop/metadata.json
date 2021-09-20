@@ -1,0 +1,55 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "plasma-devel@kde.org",
+                "Name": "Arch Linux"
+            }
+        ],
+        "Category": "",
+        "Description": "KDE with Arch Linux",
+        "Id": "org.archlinux.kdelight.desktop",
+        "License": "GPLv2+",
+        "Name": "Arch Linux Light",
+        "Name[az]": "Arch Linux - İşıqlı",
+        "Name[ca]": "Arch Linux clara",
+        "Name[ca@valencia]": "Arch Linux clara",
+        "Name[cs]": "Arch Linux Světlé",
+        "Name[da]": "Arch Linux Light",
+        "Name[de]": "Arch Linux Hell",
+        "Name[el]": "Arch Linux φωτεινό",
+        "Name[en_GB]": "Arch Linux Light",
+        "Name[es]": "Arch Linux claro",
+        "Name[et]": "Arch Linux hele",
+        "Name[eu]": "Arch Linux argia",
+        "Name[fi]": "Vaalea Arch Linux",
+        "Name[fr]": "Arch Linux clair",
+        "Name[gl]": "Arch Linux claro",
+        "Name[hu]": "Arch Linux Light",
+        "Name[ia]": "Arch Linux Ligier",
+        "Name[id]": "Arch Linux Terang",
+        "Name[it]": "Arch Linux chiaro",
+        "Name[ja]": "Arch Linux ライト",
+        "Name[ko]": "Arch Linux (밝은 테마)",
+        "Name[lt]": "Arch Linux šviesus",
+        "Name[nl]": "Arch Linux Light",
+        "Name[nn]": "Arch Linux lys",
+        "Name[pl]": "Jasna Arch Linux",
+        "Name[pt]": "Arch Linux Clara",
+        "Name[pt_BR]": "Arch Linux Light",
+        "Name[ro]": "Arch Linux, luminos",
+        "Name[ru]": "Arch Linux, светлый вариант",
+        "Name[sv]": "Arch Linux Light",
+        "Name[uk]": "Світла Arch Linux",
+        "Name[x-test]": "xxArch Linux Lightxx",
+        "Name[zh_CN]": "Arch Linux 亮色",
+        "Name[zh_TW]": "Arch Linux Light",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "https://www.kde.org"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}
