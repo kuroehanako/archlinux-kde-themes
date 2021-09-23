@@ -45,7 +45,7 @@ uninstall:
 	_rm "$PREFIX/share/wallpapers/wireparts
 
 _get_version:
-	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
+	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%YY%MM HEAD))
 	@echo $(VERSION)
 
 dist: _get_version
