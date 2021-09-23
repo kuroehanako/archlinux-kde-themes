@@ -49,7 +49,7 @@ _get_version:
 	@echo $(VERSION)
 
 dist: _get_version
-	git archive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
+	git archive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz main -- $(THEMES)
 
 release: _get_version
 	git tag -f $(VERSION)
