@@ -16,33 +16,33 @@ install:
 	cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/archlinux
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/archlinux-dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.archlinux.kdedark.desktop
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.archlinux.kdedefault.desktop
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.archlinux.kdelight.desktop
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/archbtw
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/archwave
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/archwaveinv
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/awesome
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/conference
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/geolanes
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/geowaves
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/gritty
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/landscape
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/lone
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/mountain
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/reflected
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/simple
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/small
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/snow
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/split
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/sunset
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/svalbard
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/wave
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/wild
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/wirefeather
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/wireparts
+	_rm "$PREFIX/share/plasma/desktoptheme/archlinux
+	_rm "$PREFIX/share/plasma/desktoptheme/archlinux-dark
+	_rm "$PREFIX/share/plasma/look-and-feel/org.archlinux.kdedark.desktop
+	_rm "$PREFIX/share/plasma/look-and-feel/org.archlinux.kdedefault.desktop
+	_rm "$PREFIX/share/plasma/look-and-feel/org.archlinux.kdelight.desktop
+	_rm "$PREFIX/share/wallpapers/archbtw
+	_rm "$PREFIX/share/wallpapers/archwave
+	_rm "$PREFIX/share/wallpapers/archwaveinv
+	_rm "$PREFIX/share/wallpapers/awesome
+	_rm "$PREFIX/share/wallpapers/conference
+	_rm "$PREFIX/share/wallpapers/geolanes
+	_rm "$PREFIX/share/wallpapers/geowaves
+	_rm "$PREFIX/share/wallpapers/gritty
+	_rm "$PREFIX/share/wallpapers/landscape
+	_rm "$PREFIX/share/wallpapers/lone
+	_rm "$PREFIX/share/wallpapers/mountain
+	_rm "$PREFIX/share/wallpapers/reflected
+	_rm "$PREFIX/share/wallpapers/simple
+	_rm "$PREFIX/share/wallpapers/small
+	_rm "$PREFIX/share/wallpapers/snow
+	_rm "$PREFIX/share/wallpapers/split
+	_rm "$PREFIX/share/wallpapers/sunset
+	_rm "$PREFIX/share/wallpapers/svalbard
+	_rm "$PREFIX/share/wallpapers/wave
+	_rm "$PREFIX/share/wallpapers/wild
+	_rm "$PREFIX/share/wallpapers/wirefeather
+	_rm "$PREFIX/share/wallpapers/wireparts
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
