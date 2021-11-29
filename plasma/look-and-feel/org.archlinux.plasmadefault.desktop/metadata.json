@@ -8,7 +8,7 @@
         ],
         "Category": "",
         "Description": "KDE with Arch Linux",
-        "Id": "org.archlinux.kdedefault.desktop",
+        "Id": "org.archlinux.plasmadefault.desktop",
         "License": "GPLv2+",
         "Name": "Arch Linux",
         "Name[az]": "Arch Linux",
